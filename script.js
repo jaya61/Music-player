@@ -62,7 +62,7 @@ audio.addEventListener("timeupdate", () => {
   }
 });
 
-// Seek when slider changes
+// Seek when the slider changes
 progress.addEventListener("input", () => {
   audio.currentTime = (progress.value / 100) * audio.duration;
 });
